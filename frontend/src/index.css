@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.cdnfonts.com/css/gilroy-bold');
+@import "tailwindcss";
+
+@theme {
+  --font-theme: "Archivo", sans-serif; 
+  --font-display: "Gilroy", sans-serif; 
+}
+
+.swiper-pagination {
+  position: static !important;
+  text-align: left !important;
+  margin-left: 30px;
+}
+
+.swiper-pagination .swiper-pagination-bullet-active {
+  background-color: #5D625F !important;
+}
+
+.swiper-pagination .swiper-pagination-bullet {
+  border-radius: 148px;
+  width: 28px;
+  height: 4px;
+  background-color: #979797;
+}
+
+@media (max-width: 768px) {
+  .swiper-pagination {
+    margin-top: 10px;
+  }
+}
