@@ -11,7 +11,7 @@ function App() {
   return (
     <div className="relative min-h-screen lg:px-[32px] px-[22px] bg-[#EFEFF2] text-gray-900 font-[Archivo] overflow-hidden">
       <img
-        src="/src/assets/BG.png"
+        src="./assets/BG.png"
         alt="background"
         className="absolute top-0 left-0 object-cover mix-blend-color-dodge pointer-events-none"
       />
@@ -19,7 +19,7 @@ function App() {
       <header className="max-w-[1392px] mx-auto flex justify-between items-center mt-[16px] md:mb-[85px] mb-[22px] py-[4px] relative z-10">
         <div className="flex items-center">
           <div className="inline-flex items-center bg-[#EFEFF2] rounded-full py-[8px] px-[12px] gap-2">
-            <img src="/src/assets/Group 2131332319.svg" alt="logo" />
+            <img src="./assets/Group 2131332319.svg" alt="logo" />
             <h5 className="text-[16px] text-[#333333] font-display font-semibold">Backyard</h5>
           </div>
         </div>
@@ -72,7 +72,7 @@ function App() {
             <span className="relative">
               DeFi
               <img
-                src="/src/assets/Group 2131332332.png"
+                src="./assets/Group 2131332332.png"
                 alt="Leaf"
                 className="absolute left-full top-1/2 -translate-y-1/2 ml-2 w-18 min-[815px]:hidden"
               />
@@ -96,7 +96,7 @@ function App() {
 
         <div className="max-[815px]:hidden justify-center items-center">
           <img
-            src="/src/assets/Group 2131332332.png"
+            src="./assets/Group 2131332332.png"
             alt="Leaf"
             className="lg:w-64 w-1/2"
           />
@@ -110,9 +110,9 @@ function App() {
 
         <div className="hidden lg:grid grid-cols-3 gap-[40px]">
           <div>
-            <img src="/src/assets/Img1.png" alt="img1" className="mx-auto mb-[-20px] w-[179px]" />
+            <img src="./assets/Img1.png" alt="img1" className="mx-auto mb-[-20px] w-[179px]" />
             <div className="relative z-10 bg-[#F4F6F7] flex items-center rounded-[45px] gap-[60px] p-[12px] mb-[15px]">
-              <img src="/src/assets/Number1.svg" alt="1" />
+              <img src="./assets/Number1.svg" alt="1" />
               <h4 className="text-[20px] text-[#303030] font-medium">Yield Aggregator</h4>
             </div>
             <div className="bg-[#F4F6F7] p-[30px] rounded-[30px]">
@@ -124,9 +124,9 @@ function App() {
           </div>
 
           <div>
-            <img src="/src/assets/Img2.png" alt="img2" className="mx-auto mb-[-20px] w-[179px]" />
+            <img src="./assets/Img2.png" alt="img2" className="mx-auto mb-[-20px] w-[179px]" />
             <div className="relative z-10 bg-[#F4F6F7] flex items-center rounded-[45px] gap-[60px] p-[12px] mb-[15px]">
-              <img src="/src/assets/Number2.svg" alt="2" />
+              <img src="./assets/Number2.svg" alt="2" />
               <h4 className="text-[20px] text-[#303030] font-medium">Yield-backed Stablecoin</h4>
             </div>
             <div className="bg-[#F4F6F7] p-[30px] rounded-[30px]">
@@ -138,9 +138,9 @@ function App() {
           </div>
 
           <div>
-            <img src="/src/assets/Img3.png" alt="img3" className="mx-auto mb-[-20px] w-[179px]" />
+            <img src="./assets/Img3.png" alt="img3" className="mx-auto mb-[-20px] w-[179px]" />
             <div className="relative z-10 bg-[#F4F6F7] flex items-center rounded-[45px] gap-[60px] p-[12px] mb-[15px]">
-              <img src="/src/assets/Number3.svg" alt="3" />
+              <img src="./assets/Number3.svg" alt="3" />
               <h4 className="text-[20px] text-[#303030] font-medium">Boost DeFi Liquidity</h4>
             </div>
             <div className="bg-[#F4F6F7] p-[30px] rounded-[30px]">
@@ -163,7 +163,7 @@ function App() {
               <div className="flex flex-col-reverse md:flex-row md:items-center md:gap-10">
                 <div className="flex-1">
                   <div className="relative z-10 bg-[#F4F6F7] flex items-center rounded-[45px] gap-[20px] p-[12px] mb-[15px]">
-                    <img src="/src/assets/Number1.svg" alt="1" />
+                    <img src="./assets/Number1.svg" alt="1" />
                     <h4 className="text-[20px] text-[#303030] font-medium">Yield Aggregator</h4>
                   </div>
                   <div className="bg-[#F4F6F7] p-[30px] rounded-[30px]">
@@ -174,7 +174,7 @@ function App() {
                   </div>
                   <div className="swiper-pagination sm:mt-5" />
                 </div>
-                <img src="/src/assets/Img1.png" alt="img1" className="mx-auto w-[245px] md:mb-[35px] mb-[-35px]" />
+                <img src="./assets/Img1.png" alt="img1" className="mx-auto w-[245px] md:mb-[35px] mb-[-35px]" />
               </div>
             </SwiperSlide>
 
@@ -182,7 +182,7 @@ function App() {
               <div className="flex flex-col-reverse md:flex-row md:items-center md:gap-10">
                 <div className="flex-1">
                   <div className="relative z-10 bg-[#F4F6F7] flex items-center rounded-[45px] gap-[20px] p-[12px] mb-[15px]">
-                    <img src="/src/assets/Number2.svg" alt="2" />
+                    <img src="./assets/Number2.svg" alt="2" />
                     <h4 className="text-[20px] text-[#303030] font-medium">Yield-backed Stablecoin</h4>
                   </div>
                   <div className="bg-[#F4F6F7] p-[30px] rounded-[30px]">
@@ -193,7 +193,7 @@ function App() {
                   </div>
                   <div className="swiper-pagination sm:mt-5" />
                 </div>
-                <img src="/src/assets/Img2.png" alt="img2" className="mx-auto w-[245px]  md:mb-[35px] mb-[-35px]" />
+                <img src="./assets/Img2.png" alt="img2" className="mx-auto w-[245px]  md:mb-[35px] mb-[-35px]" />
               </div>
             </SwiperSlide>
 
@@ -201,7 +201,7 @@ function App() {
               <div className="flex flex-col-reverse md:flex-row md:items-center md:gap-10">
                 <div className="flex-1">
                   <div className="relative z-10 bg-[#F4F6F7] flex items-center rounded-[45px] gap-[20px] p-[12px] mb-[15px]">
-                    <img src="/src/assets/Number3.svg" alt="3" />
+                    <img src="./assets/Number3.svg" alt="3" />
                     <h4 className="text-[20px] text-[#303030] font-medium">Boost DeFi Liquidity</h4>
                   </div>
                   <div className="bg-[#F4F6F7] p-[30px] rounded-[30px]">
@@ -212,7 +212,7 @@ function App() {
                   </div>
                   <div className="swiper-pagination sm:mt-5" />
                 </div>
-                <img src="/src/assets/Img3.png" alt="img3" className="mx-auto w-[245px]  md:mb-[35px] mb-[-35px]" />
+                <img src="./assets/Img3.png" alt="img3" className="mx-auto w-[245px]  md:mb-[35px] mb-[-35px]" />
               </div>
             </SwiperSlide>
           </Swiper>
